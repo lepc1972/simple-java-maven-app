@@ -31,6 +31,9 @@ pipeline {
                 echo 'job complete1'
             }
         }
+        stage('complete2') {
+            steps {
+                echo 'soy luis'
     }
 }
 
